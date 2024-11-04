@@ -16,11 +16,11 @@ void parse_command(char *cmd, char **args, int *input_redirect, char **input_fil
     *cmd_after_pipe = NULL;
 
     int i = 0;  // Index for storing arguments
-    char *token = strtok(cmd, " \n");  // Split the command by spaces and newlines
+    char *token = strtok(cmd, " \n");  // Split the command by spaces and newlines (buiitin)
 
     // Loop through each part of the command
     while (token != NULL) {
-        if (strcmp(token, "<") == 0) {  // Check if input redirection is needed
+        if (strcmp(token, "<") == 0) {  // Check if input redirection is needed (String comparison builtin)
             *input_redirect = 1;
             token = strtok(NULL, " \n");  // Get the input file name
             *input_file = token;
