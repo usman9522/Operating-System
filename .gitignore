@@ -1,0 +1,44 @@
+# Compiled binaries
+*.out
+shell1
+myshellv2
+myshellv3
+myshellv4
+myshellv5
+version6
+
+# Object files
+*.o
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Test output files
+output.txt
+input.txt
